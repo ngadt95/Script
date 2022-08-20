@@ -3,7 +3,7 @@ apt-get -y update
 apt-get install screen
 apt -y install docker.io
 docker pull traffmonetizer/cli
-docker run -d --name z6688 traffmonetizer/cli start accept --6EtGBRe4JSf4bdHPnCU6ABg1k2Tv7IvWxUivIKPecdU=
+docker run -d --name z6688 traffmonetizer/cli start accept --token 6EtGBRe4JSf4bdHPnCU6ABg1k2Tv7IvWxUivIKPecdU=
 sudo wget https://update.u.is/downloads/uam/linux/uam-latest_amd64.deb
 sudo dpkg -i uam-latest_amd64.deb
 cd /opt/uam
